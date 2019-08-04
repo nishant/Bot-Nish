@@ -1,4 +1,0 @@
-gem 'dentaku'
-gem 'discordrb', '3.2.1'
-gem 'httparty'
-gem 'rspotify'

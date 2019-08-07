@@ -5,3 +5,7 @@ app/lib/secrets.rb
 .vscode
 
 .idea
+
+*.swp
+
+

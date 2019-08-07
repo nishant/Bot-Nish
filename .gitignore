@@ -1,0 +1,7 @@
+.DS_Store
+
+app/lib/secrets.rb
+
+.vscode
+
+.idea

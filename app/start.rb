@@ -15,18 +15,9 @@ require 'httparty'
 require 'dentaku'
 require 'time'
 # require 'rspotify'
-require_relative 'secrets.rb'
-require_relative 'help.rb'
-require_relative 'misc.rb'
-require_relative 'weather.rb'
-require_relative 'stock.rb'
-require_relative 'fortnite.rb'
-require_relative 'math.rb'
-require_relative 'yugioh.rb'
-require_relative 'media.rb'
-require_relative 'generate.rb'
+
 # Bundler.require :default
-# Dir.glob('lib/*.rb') { |f| require_relative f }
+Dir.glob('lib/*.rb') { |f| require_relative f }
 
 bot = Discordrb::Commands::CommandBot.new(
     token: get_discord_token(),

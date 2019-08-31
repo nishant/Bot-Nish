@@ -80,4 +80,16 @@ def create_help_embed(embed)
       value: "Plays music from a spotify playlist (shuffle keyword optional). Get the URI by clicking share playlist -> Copy Spotify URI",
       inline: false
   )
+
+  embed.add_field(
+      name: spacer + "roll a die",
+      value: "Rolls a die from 1-6",
+      inline: false
+  )
+
+  embed.add_field(
+      name: spacer + "flip a coin",
+      value: "Flips a coin for heads/tails",
+      inline: false
+  )
 end

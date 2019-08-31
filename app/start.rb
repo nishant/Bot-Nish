@@ -12,9 +12,11 @@ Dir.glob('lib/*.rb') { |f| require_relative f }
 
 bot = Discordrb::Commands::CommandBot.new(
     token: get_discord_token(),
-    client_id: get_discord_id,
+    client_id: get_discord_id(),
     prefix: '%'
 )
+
+Bundler.require :default
 
 time = Time.now
 
@@ -30,4 +32,3 @@ process_yugioh(bot)
 process_generate(bot)
 
 bot.run
-

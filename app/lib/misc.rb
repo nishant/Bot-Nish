@@ -12,6 +12,13 @@ def process_misc(bot, time)
     event.respond numbers.map(&:to_i).reduce(0, :+)
   end
 
+  bot.message(with_text: 'flip a coin') do |event|
+    event.respond ["Heads", "Tails"].shuffle.first
+  end
+
+  bot.message(with_text: 'roll a die') do |event|
+    event.respond [1,2,3,4,5,6].shuffle.first
+  end
   # bot.command(:uptime) do |event|
   # 	event.channel.send_embed("") do |embed|
   # 		embed.color = 0x35e500

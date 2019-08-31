@@ -14,6 +14,7 @@ require 'psych'
 require 'httparty'
 require 'dentaku'
 require 'time'
+require_relative 'secrets.rb'
 # require 'rspotify'
 
 # Bundler.require :default
@@ -24,8 +25,6 @@ bot = Discordrb::Commands::CommandBot.new(
     client_id: get_discord_id(),
     prefix: '%'
 )
-
-Bundler.require :default
 
 time = Time.now
 

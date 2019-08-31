@@ -2,7 +2,7 @@
 #  sunset bug
 #  too many cards to list -> send as file
 
-require 'bundler/setup'
+# require 'bundler/setup'
 require 'open-uri'
 require 'json'
 require 'time'

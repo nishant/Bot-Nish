@@ -15,7 +15,7 @@ Once the bot has been invited to the server, type %help to view a list of comman
 | %fn <platform> <username>  | Finds fortnite statistics by platform (pc, xbl, psn) and username  |
 |  %fn shop |  Gets all items in the item shop (pics coming soon) |
 | %fn drop  | Picks a random drop location.  |
-|  % math <expr> OR %math <func>(<list>) |  Evaluates mathematical expressions. Supported operators: +  -  *  /  %  ^  |  &  <  >  <=  >=  !=  =, Supported functions: min, max, sum, avg, count, round (up/down) |
+|  % math <expr> OR %math <func>(<list>) |  Evaluates mathematical expressions. Supported operators: +  -  *  /  %  ^  \|  &  <  >  <=  >=  !=  = Supported functions: min, max, sum, avg, count, round (up/down) |
 | %ygo find <keyword> OR %ygo find <exact_card_name>  | Finds and retrieves Yugioh card info based on properly spelled/capitalized card name. Use the find command to get a list of all cards with <keyword> in the name. Use this result to lookup card info based with it's exact name  |
 |%gen pass   | DMs you a randomly generated strong password.  |
 | %gen team <name1,name2,...> <team_size>  |  Randomly generates teams of a specified size |

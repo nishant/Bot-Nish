@@ -10,7 +10,7 @@ Once the bot has been invited to the server, type %help to view a list of comman
 |Commnad   | Description  |
 |:-:|:-:|
 | %help  |  Show help menu |
-|  %stock <symbol> OR %stock <name> | Finds stock data by stock symbol or company name  |
+|  %stock \<symbol> OR %stock \<name> | Finds stock data by stock symbol or company name  |
 |  %weather <zip_code> | Finds weather data by zip code  |
 | %fn <platform> <username>  | Finds fortnite statistics by platform (pc, xbl, psn) and username  |
 |  %fn shop |  Gets all items in the item shop (pics coming soon) |
